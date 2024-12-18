@@ -77,4 +77,20 @@ router.get("/myRecipes/:userID", async (req, res) => {
     });
   }
 });
+
+// Fetch recipes created by a specific user
+router.get("/userRecipes/:userID", async (req, res) => {
+  try {
+    const userRecipes = await RecipeModel.find({
+      userOwner: req.params.userID,
+    });
+    res.json(userRecipes);
+  } catch (err) {
+    res.status(500).json({
+      message: "Error fetching user's recipes",
+      error: err.message,
+    });
+  }
+});
+
 export { router as recipesRouter };

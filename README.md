@@ -2,7 +2,7 @@
 
 ## Discover, Share, and Cook Together
 
-MealMeet is a community-driven recipe sharing platform that connects food lovers, home cooks, and culinary enthusiasts. Transform the way you discover and prepare meals by leveraging the power of shared recipes and smart search capabilities.
+Find recipes based on your ingredients inventory or required time, share your recipes, and tell us your cooking secrets. Transform the way you discover and prepare meals by leveraging the power of shared recipes and smart search capabilities. Developed with MERN stack.
 
 ### 🌟 Key Features
 
